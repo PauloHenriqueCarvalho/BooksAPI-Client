@@ -25,7 +25,7 @@ BookManager é uma aplicação para gerenciar um catálogo de livros, desenvolvi
 bash
 Copiar
 Editar
-git clone https://github.com/seu-usuario/BookManager.git
+git clone [https://github.com/seu-usuario/BookManager.git](https://github.com/PauloHenriqueCarvalho/BooksAPI-Client.git)
 cd BookManager
 2️⃣ Configurar o Banco de Dados
 Criar um banco no SQL Server
@@ -40,9 +40,4 @@ cd backend
 mvn spring-boot:run
 4️⃣ Executar o Frontend
 Rodar o projeto Java Swing pelo seu IDE (NetBeans, Eclipse, VS Code, etc.)
-
-🛠 Melhorias Futuras
-🔹 Filtro de livros por autor/gênero
-🔹 Interface aprimorada no Swing
-🔹 Exportação de dados para CSV/PDF
 
