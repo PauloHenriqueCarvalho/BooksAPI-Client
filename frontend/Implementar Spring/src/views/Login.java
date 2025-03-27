@@ -106,8 +106,19 @@ public class Login extends javax.swing.JFrame {
             } else {
                 JOptionPane.showMessageDialog(this, "Bem Vindo");
                 User.setToken(response);
-                dispose();
-                new ScreenBooks().setVisible(true);
+                
+                String role = new ApiUser().getUserRole(login.getText());
+                System.out.println("Role> " + role);
+
+                if(role.equals("ADMIN")){
+                    dispose();
+                    new ScreenBooksAdmin().setVisible(true);
+                    
+                } else if(role.equals("USER")){
+                    dispose();
+                    new ScreenBooksUser().setVisible(true);
+                }
+                
             }
 
         } catch (Exception e) {

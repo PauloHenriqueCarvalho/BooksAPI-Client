@@ -14,6 +14,7 @@ public class User {
     private String name;
     private String login;
     private String password;
+    private String role;
     
     private static String token;
 
@@ -35,6 +36,24 @@ public class User {
         this.login = login;
         this.password = password;
     }
+
+    public User(Integer id, String name, String login, String password, String role) {
+        this.id = id;
+        this.name = name;
+        this.login = login;
+        this.password = password;
+        this.role = role;
+    }
+    
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+    
 
     public Integer getId() {
         return id;

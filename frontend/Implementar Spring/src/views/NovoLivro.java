@@ -165,7 +165,7 @@ public class NovoLivro extends javax.swing.JFrame {
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
         dispose();
-        new ScreenBooks().setVisible(true);
+        new ScreenBooksAdmin().setVisible(true);
     }//GEN-LAST:event_jLabel5MouseClicked
 
     /**

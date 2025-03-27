@@ -63,6 +63,16 @@ public class UserResource {
 
     }
 
+    @GetMapping("/{login}")
+    public ResponseEntity<User> pegarRole(@PathVariable String login){
+        User user = repository.findByLogin(login);
+        if(user != null){
+            return ResponseEntity.ok(user);
+
+        } else {
+            return ResponseEntity.notFound().build();        }
+    }
+
 
     @Bean
     @Qualifier("customPasswordEncoder")
