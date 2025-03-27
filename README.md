@@ -1,6 +1,6 @@
 # BooksAPI-Client
-📚 BookManager – Aplicação CRUD de Livros com Java Swing e Spring Boot
-BookManager é uma aplicação para gerenciar um catálogo de livros, desenvolvida com Java Swing no frontend e Spring Boot no backend. O sistema permite cadastrar, listar, atualizar e excluir livros através de uma API REST, utilizando OkHttpClient para as requisições HTTP.
+📚 BooksAPI – Aplicação CRUD de Livros com Java Swing e Spring Boot
+BooksAPI é uma aplicação para gerenciar um catálogo de livros, desenvolvida com Java Swing no frontend e Spring Boot no backend. O sistema permite cadastrar, listar, atualizar e excluir livros através de uma API REST, utilizando OkHttpClient para as requisições HTTP.
 
 🚀 Tecnologias Utilizadas
 🔹 Frontend: Java Swing (Interface gráfica)
@@ -25,7 +25,7 @@ BookManager é uma aplicação para gerenciar um catálogo de livros, desenvolvi
 bash
 Copiar
 Editar
-git clone https://github.com/seu-usuario/BookManager.git
+git clone [https://github.com/seu-usuario/BookManager.git](https://github.com/PauloHenriqueCarvalho/BooksAPI-Client.git)
 cd BookManager
 2️⃣ Configurar o Banco de Dados
 Criar um banco no SQL Server
@@ -40,9 +40,4 @@ cd backend
 mvn spring-boot:run
 4️⃣ Executar o Frontend
 Rodar o projeto Java Swing pelo seu IDE (NetBeans, Eclipse, VS Code, etc.)
-
-🛠 Melhorias Futuras
-🔹 Filtro de livros por autor/gênero
-🔹 Interface aprimorada no Swing
-🔹 Exportação de dados para CSV/PDF
 
